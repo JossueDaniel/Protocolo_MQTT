@@ -36,6 +36,8 @@ cd Protocolo_MQTT
 ### 2. Instalar mosquitto y mosquitto-clients
 ```bash
 sudo apt-get install mosquitto
+```
+```bash
 sudo apt-get install mosquitto-clients
 ```
 
