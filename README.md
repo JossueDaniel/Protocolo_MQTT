@@ -72,3 +72,15 @@ Se debe ejecutar el script de python para establecer este nuevo subscriptor
 ```python
 python sub_interruptor.py
 ```
+
+### 7. Publicar información del sensor (topic)
+Se ejecutará un shell script para enviar la información del sensor de luz a los interruptores (subscriptores) quién será el encargado de controlar las luces de la habitación
+
+- Se otorga permiso para ejecutar el shell script
+```bash
+chmod +x pub_sensor.sh
+```
+- Se ejecuta el shell script para publicar la información del sensor de luz
+```bash
+./pub_sensor.sh
+```
