@@ -56,13 +56,19 @@ mosquitto -c mosquitto.conf
 ```
 
 ### 5. Establecer un subscriptor
-Se establece un subscriptor que pueda escuchar los mensajes de la habitación.
+Se establece un subscriptor "habitación" que pueda escuchar todos los mensajes de la habitación.
 
-- Se otorga permiso para ejecutar el script
+- Se otorga permiso para ejecutar el shell script
 ```bash
 chmod +x nuevo_sub.sh
 ```
-- Se ejecuta el script
+- Se ejecuta el shell script
 ```bash
 ./nuevo_sub.sh
+```
+
+### 6. Establecer el subscriptor "interruptor" de encendido y apagado de la habitación
+Se debe ejecutar el script de python para establecer este nuevo subscriptor
+```python
+python sub_interruptor.py
 ```
