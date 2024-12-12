@@ -30,15 +30,23 @@ La información debe ser recibida por un suscriptor que controla las luces de un
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/JossueDaniel/Protocolo_MQTT.git
+```
+
+```bash
 cd Protocolo_MQTT
 ```
 
 ### 2. Instalar mosquitto y mosquitto-clients
 ```bash
-sudo apt-get install mosquitto
+sudo apt install mosquitto
 ```
 ```bash
-sudo apt-get install mosquitto-clients
+sudo apt install mosquitto-clients
 ```
 
-### 3.
+### 3. Iniciar mosquitto
+Para poder iniciar el servidor de MQTT mosquitto se debe ejecutar el fichero de configuración mosquitto.conf
+```bash
+mosquitto -c mosquitto.conf
+```
+
