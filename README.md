@@ -18,3 +18,9 @@ La información que publica un sensor de luz tiene la siguiente estructura en un
 ```
 
 La información debe ser recibida por un suscriptor que controla las luces de una habitación. Si el sensor de luz reporta un valor menor que 50 con una precisión mayor a 0.9, debe imprimir un mensaje que indique que se encenderán las luces, caso contrario, debe imprimir un mensaje que indique que las luces serán apagadas. De esta forma simularemos el encendido/apagado de luces.
+
+### Requisitos
+- mosquitto
+- mosquitto-clients
+- Python 3.x
+- pip (gestor de paquetes python)
