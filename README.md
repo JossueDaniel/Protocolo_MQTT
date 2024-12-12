@@ -24,3 +24,13 @@ La información debe ser recibida por un suscriptor que controla las luces de un
 - mosquitto-clients
 - Python 3.x
 - pip (gestor de paquetes python)
+
+## Instalación
+
+### 1. Clonar el repositorio
+```bash
+git clone
+cd Protocolo_MQTT
+```
+
+
