@@ -29,8 +29,14 @@ La información debe ser recibida por un suscriptor que controla las luces de un
 
 ### 1. Clonar el repositorio
 ```bash
-git clone
+git clone https://github.com/JossueDaniel/Protocolo_MQTT.git
 cd Protocolo_MQTT
 ```
 
+### 2. Instalar mosquitto y mosquitto-clients
+```bash
+sudo apt-get install mosquitto
+sudo apt-get install mosquitto-clients
+```
 
+### 3.
