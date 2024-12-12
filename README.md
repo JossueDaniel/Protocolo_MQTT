@@ -44,13 +44,18 @@ sudo apt install mosquitto
 sudo apt install mosquitto-clients
 ```
 
-### 3. Iniciar mosquitto
+### 3. Instalar dependencias
+```python
+pip install -r requirements.txt
+```
+
+### 4. Iniciar mosquitto
 Para poder iniciar el servidor de MQTT mosquitto se debe ejecutar el fichero de configuración mosquitto.conf
 ```bash
 mosquitto -c mosquitto.conf
 ```
 
-### 4. Establecer un subscriptor
+### 5. Establecer un subscriptor
 Se establece un subscriptor que pueda escuchar los mensajes de la habitación.
 
 - Se otorga permiso para ejecutar el script
