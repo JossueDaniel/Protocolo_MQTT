@@ -55,8 +55,8 @@ Para poder iniciar el servidor de MQTT mosquitto se debe ejecutar el fichero de 
 mosquitto -c mosquitto.conf
 ```
 
-### 5. Establecer un subscriptor
-Se establece un subscriptor "habitación" que pueda escuchar todos los mensajes de la habitación.
+### 5. Establecer un susscriptor
+Se establece un suscriptor "habitación" que pueda escuchar todos los mensajes de la habitación.
 
 - Se otorga permiso para ejecutar el shell script
 ```bash
@@ -67,14 +67,14 @@ chmod +x nuevo_sub.sh
 ./nuevo_sub.sh
 ```
 
-### 6. Establecer el subscriptor "interruptor" de encendido y apagado de la habitación
-Se debe ejecutar el script de python para establecer este nuevo subscriptor
+### 6. Establecer el suscriptor "interruptor" de encendido y apagado de la habitación
+Se debe ejecutar el script de python para establecer este nuevo suscriptor
 ```python
 python sub_interruptor.py
 ```
 
 ### 7. Publicar información del sensor (topic)
-Se ejecutará un shell script para enviar la información del sensor de luz a los interruptores (subscriptores) quién será el encargado de controlar las luces de la habitación
+Se ejecutará un shell script para enviar la información del sensor de luz a los interruptores (suscriptores) quién será el encargado de controlar las luces de la habitación
 
 - Se otorga permiso para ejecutar el shell script
 ```bash
