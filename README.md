@@ -55,7 +55,7 @@ Para poder iniciar el servidor de MQTT mosquitto se debe ejecutar el fichero de 
 mosquitto -c mosquitto.conf
 ```
 
-### 5. Establecer un susscriptor
+### 5. Establecer un suscriptor
 Se establece un suscriptor "habitación" que pueda escuchar todos los mensajes de la habitación.
 
 - Se otorga permiso para ejecutar el shell script
